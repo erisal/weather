@@ -1,4 +1,4 @@
-const apiLink = 'http://api.openweathermap.org/data/2.5/weather?APPID=6fd65ebdbabf5858e804ce69f0f04db6&q='
+const apiLink = 'https://api.openweathermap.org/data/2.5/weather?APPID=6fd65ebdbabf5858e804ce69f0f04db6&q='
 let currentLocation = 'seattle';
 let currentTemp;
 let tempScale = 'f';
