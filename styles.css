@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    transition: background-color 0.5s ease;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#locationForm{
+    margin: 0px;
+}
+
+#icon{
+    float:right;
+    margin-top: -30px;
+}
+
+#cityName{
+    font-size: 48px;
+
+}
+#currentWeather{
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-style: italic;
+
+}
+#currentTemp{
+    font-size: 96px;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius:80px;
+    word-wrap: none;
+
+}
+#searchKey{
+    width: 500px;
+    font-size: 42px;
+    border: 0px;
+    padding-left: 8px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#tempScale{
+    float:right;
+    position: relative;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    border: none;
+    border-radius: 18px;
+    
+}
+
+
+.cloudy{
+    background-color: rgb(160, 160, 160);
+    color: black;
+}
+.sunny{
+    background-color: rgb(194, 215, 255);
+    color: black;
+}
+.rainy{
+    background-color: rgb(112, 112, 112);
+    color: black;
+}
+.snowy{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.night{
+    background-color: rgb(39, 41, 68);
+    color: white;
+}
